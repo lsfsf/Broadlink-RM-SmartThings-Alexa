@@ -67,8 +67,8 @@ def offPhysical() {
 }
 
 private put(toggle) {
-    def url1="xxx.xxx.xx.xx:7474"
-    def userpassascii= "yourusername:yourpassword"
+    def url1="192.168.0.102:7474"
+    def userpassascii= "lsfsf:1533"
     def userpass = "Basic " + userpassascii.encodeAsBase64().toString()
     def toReplace = device.deviceNetworkId
 	def replaced = toReplace.replaceAll(' ', '%20')
